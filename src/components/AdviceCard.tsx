@@ -50,7 +50,7 @@ export default function AdviceCard() {
   }, [fetchSlip]);
 
   return (
-    <div className="max-w-sm md:max-w-lg bg-dark-grayish-blue-500 px-8 py-10 rounded relative flex flex-col items-center gap-6">
+    <div className="max-w-sm md:max-w-lg bg-dark-grayish-blue-500 px-8 py-10 rounded-lg shadow relative flex flex-col items-center gap-6">
       <h1 className="text-neon-green-500 text-xs uppercase tracking-[3px]">
         advice # {slip?.id}
       </h1>
